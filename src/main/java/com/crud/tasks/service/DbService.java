@@ -9,7 +9,7 @@ import java.util.Optional;
 
 public class DbService {
     @Autowired
-    TaskRepository repository;
+     private TaskRepository repository;
 
     public List<Task> getAllTask(){
         return repository.findAll();
