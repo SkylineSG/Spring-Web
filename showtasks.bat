@@ -10,8 +10,6 @@ if "%ERRORLEVEL%" == "0" goto end
 echo Cannot open page
 goto fail
 
-
-
 :fail
 echo.
 echo There were errors
