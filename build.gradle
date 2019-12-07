@@ -33,7 +33,8 @@ dependencies {
     implementation('org.springframework.boot:spring-boot-starter-web')
     runtimeOnly('com.h2database:h2')
     testImplementation('org.springframework.boot:spring-boot-starter-test')
-
+    compile('io.springfox:springfox-swagger2:2.7.0') 
+    compile('io.springfox:springfox-swagger-ui:2.7.0')
     implementation('mysql:mysql-connector-java')
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
