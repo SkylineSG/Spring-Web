@@ -39,13 +39,5 @@ public class SimpleEmailService {
         mailMessage.setCc(mail.getToCc());
         return mailMessage;
     }
-    private MimeMessagePreparator createMimeMessage(final Mail mail) {
-        return mimeMessage -> {
-            MimeMessageHelper messageHelper = new MimeMessageHelper(mimeMessage);
-            messageHelper.setTo(mail.getMailTo());
-            messageHelper.setSubject(mail.getSubject());
-            messageHelper.setCc(mail.getToCc());
-        };
-    }
 
 }
