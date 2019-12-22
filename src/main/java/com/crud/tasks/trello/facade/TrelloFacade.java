@@ -1,4 +1,4 @@
-package com.crud.tasks.client;
+package com.crud.tasks.trello.facade;
 
 import com.crud.tasks.domain.*;
 import com.crud.tasks.mapper.TrelloMapper;
