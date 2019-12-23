@@ -39,4 +39,6 @@ dependencies {
     implementation('mysql:mysql-connector-java')
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
+    compile'com.google.code.gson:gson:2.8.2'
+    compile('org.springframework.boot:spring-boot-starter-actuator')
 }
